@@ -4,10 +4,11 @@ version = "0.1.0"
 edition = "2021"
 authors = ["Flo Potok <florenciabsalinas@gmail.com>"]
 description = "A minimal program that runs on bare metal."
+repository = "https://github.com/flopotok/flos.git"
+license = "MIT OR Apache-2.0"
 keywords = ["bare-metal", "embedded", "rust"]
 categories = ["embedded", "no-std"]
-exclude = ["/.github", ".*"]
-include = ["/src", "COPYRIGHT", "/examples", "!/examples/big_example"]
+exclude = ["/.github", ".*", "justfile", "/target"]
 
 [badges]
 # The `maintenance` table indicates the status of the maintenance of
